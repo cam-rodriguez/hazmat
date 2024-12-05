@@ -13,13 +13,11 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.9'
-    - run: pip install notebook requests bs4
-    
+    - run: pip install notebook requests bs4  
     - name: Run scraper
       run: jupyter execute scrape.ipynb
-
     - name: Add and commit	
-      run: |
+      run: |-
         git add .	
         git config user.name "Automated"	
         git config user.email "actions@users.noreply.github.com"	
