@@ -3,25 +3,25 @@ name: Hazmat
 on:
   schedule:
     - cron: "0 0 12 ? * SUN *" # every sunday
-    workflow_dispatch:
+  workflow_dispatch:
 
   
-  jobs:
-    scrape:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-        - name: download file
-          run: bash script.sh
+      - name: download file
+        run: bash script.sh
 
-        -name: add and commit
-          id: add_commit
-          uses: EndBug/add-and-commit@v8
-          with:
-            committer_name: Automated
-            committer_email: actions@users.noreply.github.com
-            message: "Latest data"
+      - name: add and commit
+        id: add_commit
+        uses: EndBug/add-and-commit@v8
+        with:
+          committer_name: Automated
+          committer_email: actions@users.noreply.github.com
+          message: "Latest data"
 
-        - name: Push
-          run: git push
+      - name: Push
+        run: git push
