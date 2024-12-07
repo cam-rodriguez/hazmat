@@ -2,7 +2,7 @@ name: Hazmat
 
 on:
   schedule:
-    - cron: "0 0 12 ? * SUN *" # every sunday
+    - cron: "59 23 * * 0" # every sunday at 11:59 pm
   workflow_dispatch:
 
   
