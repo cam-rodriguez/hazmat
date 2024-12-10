@@ -1,0 +1,168 @@
+Illinois Emergency Management Agency
+
+Freedom of Information Act Request
+=========================================
+
+Introduction
+------------
+This file contains information on all Hazardous Materials Reports
+from 1987 through the previous Sunday.
+
+	
+System Requirements
+-------------------
+
+Windows 98 Operating System or later is required.
+
+MS Excel, WordPad or Notepad is needed to view the file.
+
+If you will be sorting, extracting or manipulating the file data or printing address
+labels, a program such as Microsoft Excel, Microsoft Word or compatible products
+is suggested.
+
+
+Contents Download
+--------------------
+	Readme.txt
+	Hazmat-Reports.csv -  An ASCII, quote/comma delimited list of ALL
+		      Hazmat report from 1987 through the previous Sunday.
+
+Viewing & Using the Data
+------------------------
+To view the file data in WordPad or Notepad:
+	Open My Computer
+	Navigate to the CD drive that contains the IEMA Freedom of Information Act 
+	Request CD (FOIA CD) and double-click on the Hazmat-Reports.csv file
+
+NOTE:  If you can not see the folder or the Hazmat-Reports.csv file listed in the folder list
+       on the left side of the Windows Explorer window, look at the display area on
+       the right side.  You may have to click on the folder name to display the file.
+
+
+To use the file data in Excel 97 or later:
+	Launch Excel
+	Select Open from the File menu
+	Navigate the "Look in" box to the CD drive that contains the FOIA file
+
+The file will be displayed in 79 columns.  See "Layout of Hazmat-Reports.csv" for a description
+of the columns and contents.
+
+If you want to save the file as an Excel worksheet:
+	
+	Select Save As from the File menu
+	Change the Save In location to a folder on your C: drive
+	Change the "Save as type" to Microsoft Excel (*.xls) and click Save
+
+
+Layout of Hazmat-Reports.csv
+--------------------
+The first record of this file contains the column headers.
+
+	Column Header	  Description
+	-------------     -----------
+	Incident Number
+	Incident Report Date
+	Street Address of Incident Location
+	Incident Location City
+	Incident Location County
+	Entered By
+	Date Entered
+	Data Input Status
+	Leaking Underground Storage Tank (LUST)?
+	Caller
+	Caller Represents
+	Hazmat Incident Type: HAZMAT
+	Incident Location				Section header
+	Date/Time Occurred
+	Street
+	City
+	State
+	County
+	Milepost
+	Section
+	Township
+	Range
+	Area Involved
+	Media or medium into which the release occurred
+	Weather Information				Section header
+	Temp
+	Wind
+	Materials Involved				Section header
+	Name
+	Type
+	CHRIS CODE
+	CAS#
+	UN/NA #
+	Is this a 302(a) Extremely Hazardous Substance?
+	Is this a RCRA Hazardous Waste?
+	Is this a RCRA regulated facility?
+	Container Type
+	Container Size
+	Amount Released
+	Rate of Release/min
+	Duration of Release
+	Cause of Release
+	Estimated Spill Extent
+	Spill Extent Units
+	Date/Time Incident Occurred
+	Check if Unknown (Occurrence)
+	Date/Time Discovered
+	Check if Unknown (Discovered)
+	Where evacuated Taken
+	On Scene Contact
+	Public Health Risks and/or Precautions Taken
+	Number of People Evacuated
+	Assistance needed from State Agencies
+	Containment/cleanup actions and plans
+	Responsible Party				Section header
+	Name
+	Facility Manager
+	Facility Manager Phone #
+	Street
+	Emergency Units Contacted			Section header
+	Contacted ESDA?
+	ESDA on Scene?
+	Specific ESDA Agency Contacted
+	Contacted Fire Department?
+	Fire Department on Scene?
+	Name of Fire Department Contacted
+	Contacted Police Department?
+	Police Department on Scene?
+	Name of Police Department Contacted
+	Sheriff Police Department?
+	Sheriff Department on Scene?
+	Name of Sheriff Department Contacted
+	Was an Agency Other than ESDA, Fire Police or Sheriff Contacted?
+	Was this Other Agency On Scene?
+	Name of Other Agency Contacted
+	Agency or Persons Notified			Section header
+	Narrative
+	Follow-Up
+	Agency Notified Name
+	Notified Date/Time
+	Contact Name
+	Agency Report Sent To
+	Date/Time Agency Notified
+	
+
+Deleted or Redacted fields
+---------------------------
+The following fields have been deleted or redacted from some of the reports contained in this database: 
+	Callback Phone
+	Number Injured
+	Number killed
+	On Scene Contact Phone
+	Responsible Party Contact Person
+	Responsible Party Callback Phone
+
+
+NOTE:   The file contains ALL Hazmat Reports since 1987. The file contains a record for each material involved
+	in the incident for each report.  The file also contains a record for each agency contacted.  Therefore 
+	all non-material & non-agency contacted fields will be the same for each material/agency contacted
+	within a report. If you are only interested in a portion of this list (i.e., reports in Sangamon county), 
+	it will be your responsibility to select only those reports. 
+	The Illinois Emergency Management Agency provides the data on this file for your 
+	use, but is not able print labels or create databases for you from this data.
+
+
+
